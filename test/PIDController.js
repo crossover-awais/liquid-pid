@@ -20,11 +20,11 @@ describe('PIDController', function () {
   describe('instance', function () {
 
     it('should not be undefined', function () {
-      expect(pidController).to.be.undefined;
+      expect(pidController).not.to.be.undefined;
     });
 
     it('should be set to 40deg', function () {
-      expect(pidController.getRefTemperature()).to.equal(40);
+      expect(pidController.getRefTemperature()).to.equal(50);
     });
 
   });
