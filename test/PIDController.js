@@ -24,7 +24,7 @@ describe('PIDController', function () {
     });
 
     it('should be set to 40deg', function () {
-      expect(pidController.getRefTemperature()).to.equal(50);
+      expect(pidController.getRefTemperature()).to.equal(40);
     });
 
   });
